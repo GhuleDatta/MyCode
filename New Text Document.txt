@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class PayOfEmployee
+{
+public static void main(String[]args)
+	{
+	Scanner sc=new Scanner(System.in);
+	System.out.print("Enter the target score:");
+	int score=sc.nextInt();
+	
+	
+	if (score>90 )
+		{
+		system.out.println(Increases the pay  of employee by 3%);
+		}
+		else
+		{
+		system.out.println(Increases the pay  of employee by 1%);
+		}
+	}
+}
