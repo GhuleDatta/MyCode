@@ -1,0 +1,19 @@
+class Trangale6
+{
+	public static void main(String[] args) {
+		
+		for (int i=1;i<=5 ;i++) {
+
+
+			for (int j=1;j<=5;j++ )
+			 {
+                for (int p=1;p<=j ; ) {
+                	
+                
+				System.out.print(" * ");
+					}
+			}
+			System.out.println(" ");
+		}
+	}
+}
