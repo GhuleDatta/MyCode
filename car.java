@@ -1,20 +1,29 @@
-class Car
+class car
 {
-	
-  public static void main(String[]args)
-	{
-		byte  noSit=5;
-		byte noWheels=4;
-		byte noGears=5;
-		byte noEarbages=4;
-		byte noAc=1;
-		System.out.println("no of sit's-"+noSit);
-		System.out.println("no of Weels-"+noWheels);
-		System.out.println("no of gears-"+noGears);
-		System.out.println("no of Earebages-"+noEarbages);
-		System.out.println("no of  AC-"+noAc);	
-	
-	}
+	String brand;
+	String model;
+	String type;
+	double price;
+	int setingCapyacity;
+	Engine engine=new Engine(12.5,2.5,"CNG",24,6);
 
+	car(String brand,String model,String type,double price,int setingCapyacity,Engine engine)
+	{
+		this.brand=brand;
+		this.model=model;
+		this.type=type;
+		this.price=price;
+		this.setingCapyacity=setingCapyacity;
+	}
+	public void displaycar()
+	{
+
+		System.out.println("brand :"+brand);
+		System.out.println("model : "+model);
+		System.out.println("type : "+type);
+		System.out.println("price : "+price);
+		System.out.println("setingCapyacity :"+setingCapyacity);
+		System.out.println("engine :"+engine);
+	}
 
 }
