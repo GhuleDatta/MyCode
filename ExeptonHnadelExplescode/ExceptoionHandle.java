@@ -10,7 +10,8 @@ class ExceptoionHandle
 			catch(ArithmeticException ae)
 			{
 				System.out.println("error Handeld ae");
-				try{
+				try
+				{
 					System.out.println(10/0);
 				}
 				catch(NullPointerException npe)
