@@ -9,8 +9,8 @@ class StoreEvenOddArry
 			int [] a={16,8,9,7,6,2,4,5,1,7};
 			int evenCount=1;
 			int oddCount=1;
-			int []even=new even[evenCount];
-			int []odd=new odd[oddCount];
+			int []even=new int[evenCount];
+			int []odd=new int[oddCount];
 
 			for (int i=0;i<a.length ;i++ ) 
 			{

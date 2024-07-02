@@ -1,0 +1,10 @@
+//WAJP to find sum of all even indexcess.
+//WAJP to find the facters of number and store all facter in an array.
+//WAJP to find the sume of all ODD indexcess.
+//WAJP to store frist 10 prime numbers in a new array.
+//WAJP to store the fibonicy serise of any temes in an array.
+//Sting and string buffer
+//why string buffer class SCP is not allowed
+//== opretor & .equals()
+//
+
