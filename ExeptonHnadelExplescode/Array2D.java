@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 class Array2D
 {
 	public static void main(String[] args) 
@@ -9,7 +9,7 @@ class Array2D
 		System.out.println("Enter the colume");
 		int col=sc.nextInt();
 
-		int [][] arr=new arr[row][col];
+		int [][] arr=new int[row][col];
 
 		for (int i=0;i<row ;i++ ) 
 		{
@@ -18,12 +18,13 @@ class Array2D
 				arr[i][j]=sc.nextInt();		
 			}	
 		}
+		System.out.println(Arrays.deepToString(arr));
 
-		for (int i=0;i<arr.length ;i++ ) 
-		{
-			for (int j=0;j< ; ) {
+		// for (int i=0;i<arr.length ;i++ ) 
+		// {
+		// 	for (int j=0;j< ; ) {
 					
-				}	
-		}
+		// 		}	
+		// }
 	}
 }
